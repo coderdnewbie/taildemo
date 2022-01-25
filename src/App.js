@@ -9,18 +9,20 @@ import Testimonials from "./components/Testimonials";
 // Used Mamba UI for Blogcards, Hero etc etc
 import Hero from "./components/Hero";
 import BlogCards from "./components/BlogCards";
+import Weather from "./components/Weather";
 
 function App() {
   return (
     <main className="text-gray-400 bg-gray-700 body-font">
       <Navbar />       
       <About />
-      <Hero />
+      <Hero />      
       <Projects />
       <Skills />
       <Testimonials />
       <Contact />
-      <BlogCards />
+      <Weather />
+      <BlogCards />      
     </main>
   );
 }
