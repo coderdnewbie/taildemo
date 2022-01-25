@@ -10,6 +10,9 @@ import Testimonials from "./components/Testimonials";
 import BlogCards from "./components/BlogCards";
 import Weather from "./components/Weather";
 import SignUp from './components/SignUp';
+import Faq from './components/Faq';
+import Feature from './components/Feature';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,8 +24,11 @@ function App() {
       <Testimonials />
       <Contact />
       <Weather />
+      <Faq />
+      <Feature />
       <BlogCards />      
       <SignUp />
+      <Footer />
     </main>
   );
 }
