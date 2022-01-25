@@ -19,7 +19,8 @@ function about() {
           <div className="flex justify-center">
             <a
             href="#contact"
-            className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+            className="inline-flex text-white hover:bg-gradient-to-r hover:from-fuchsia-300 hover:to-purple-500
+                        border-0 py-2 px-6 focus:outline-none bg-gradient-to-r from-red-300 to-pink-500 rounded text-lg">
               Contact
             </a>
             <a
@@ -30,7 +31,11 @@ function about() {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          Below are Tabs
+          <div className="text-center p-10">
+            <button className="px-8 py-2 mx-auto text-white bg-blue-700 rounded transition duration-600 ease-in-out hover:bg-green-400 transform hover:-translate-y-1 hover:animate-bounce">
+              Bounce
+            </button>
+          </div>
         </div>
       </div>    
     </section>
