@@ -5,13 +5,17 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
+
+// Used Mamba UI for Blogcards, Hero etc etc
+import Hero from "./components/Hero";
 import BlogCards from "./components/BlogCards";
 
 function App() {
   return (
     <main className="text-gray-400 bg-gray-700 body-font">
-      <Navbar />
+      <Navbar />       
       <About />
+      <Hero />
       <Projects />
       <Skills />
       <Testimonials />
