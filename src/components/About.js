@@ -36,7 +36,7 @@ function about() {
           <p className="text-3xl lg:text-4xl leading-none font-extrabold text-transparent bg-clip-text bg-gradient-to-tl from-slate-300 to-green-500 tracking-tight mb-8">Tailwind and React</p>
           <div className="text-red-500 -mt-4"><FaRegThumbsUp /></div>
           <div className="mt-4">
-            <div  className="relative bg-white w-96 p-4 border border-indigo-500 rounded-lg">
+            <div  className="relative bg-white w-auto p-4 border border-indigo-500 rounded-lg">
               <div className="text-gray-800 text-sm"> 
                 <p className="mb-6">Talking here</p>              
               </div>
