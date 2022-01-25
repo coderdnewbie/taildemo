@@ -6,23 +6,23 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 
-// Used Mamba UI for Blogcards, Hero etc etc
-import Hero from "./components/Hero";
+// Used Mamba UI
 import BlogCards from "./components/BlogCards";
 import Weather from "./components/Weather";
+import SignUp from './components/SignUp';
 
 function App() {
   return (
     <main className="text-gray-400 bg-gray-700 body-font">
       <Navbar />       
       <About />
-      <Hero />      
       <Projects />
       <Skills />
       <Testimonials />
       <Contact />
       <Weather />
       <BlogCards />      
+      <SignUp />
     </main>
   );
 }
