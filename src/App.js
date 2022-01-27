@@ -6,6 +6,7 @@ import Sidebar from "./components/Sidebar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
+import TooltipButton from "./components/TooltipButton";
 
 // Used Mamba UI
 import BlogCards from "./components/BlogCards";
@@ -19,9 +20,13 @@ function App() {
   return (
     <main className="text-gray-400 bg-gray-700 body-font">
       <Navbar />
-      <Sidebar />
+      <Sidebar />        
       <About />
       <Projects />
+      <TooltipButton 
+        text="Tooltip Button"
+        type="button"
+        handleClick={() => console.log("Clicked!")} />
       <Skills />
       <Testimonials />
       <Contact />

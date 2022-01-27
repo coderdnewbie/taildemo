@@ -13,7 +13,7 @@ function Sidebar() {
         aria-disabled={open}
         disabled={open}
         onClick={toggle}
-        className="text-white focus:outline-none m-1.5 rounded px-6 py-2 font-medium bg-gray-800"
+        className="text-white focus:outline-none m-1.5 rounded px-6 py-2 font-medium bg-gray-800 z-20 float-right"
       >
         Click to open me
       </button>
