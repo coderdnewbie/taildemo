@@ -9,22 +9,22 @@ function Feature() {
                     <div className="flex space-x-2 sm:space-x-4">
                         <TickySvg />
                         <div className="space-y-2">
-                            <p className="text-lg font-medium leading-snug">Lorem ipsum dolor sit amet 1</p>
-                            <p className="leading-snug">Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati voluptatem similique!</p>
+                            <p className="text-lg font-medium leading-snug"><FeatureHeading /></p>
+                            <p className="leading-snug"><FeatureMainText /></p>
                         </div>
                     </div>
                     <div className="flex space-x-2 sm:space-x-4">
                         <TickySvg />
                         <div className="space-y-2">
-                            <p className="text-lg font-medium leading-snug">Lorem ipsum dolor sit amet 2</p>
-                            <p className="leading-snug">Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati voluptatem similique!</p>
+                            <p className="text-lg font-medium leading-snug"><FeatureHeading /></p>
+                            <p className="leading-snug"><FeatureMainText /></p>
                         </div>
                     </div>
                     <div className="flex space-x-2 sm:space-x-4">
                         <TickySvg />
                         <div className="space-y-2">
-                            <p className="text-lg font-medium leading-snug">Lorem ipsum dolor sit amet 3</p>
-                            <p className="leading-snug">Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati voluptatem similique!</p>
+                            <p className="text-lg font-medium leading-snug"><FeatureHeading /></p>
+                            <p className="leading-snug"><FeatureMainText /></p>
                         </div>
                     </div>
                 </div>
@@ -37,5 +37,13 @@ function Feature() {
         </section>
     );
 }
+
+const FeatureHeading = () => (
+    "Lorem ipsum dolor sit amet"
+  );
+
+const FeatureMainText = () => (
+    "Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati voluptatem similique!"
+  );
 
 export default Feature;
