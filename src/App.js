@@ -3,6 +3,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
+import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
@@ -20,6 +21,7 @@ function App() {
   return (
     <main className="text-gray-400 bg-gray-700 body-font">
       <Navbar />
+      <Home />
       <Sidebar />        
       <About />
       <Projects />
