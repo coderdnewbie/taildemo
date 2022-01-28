@@ -13,6 +13,8 @@ function Sidebar() {
 				isSidebarOpen ? 'left-0' : '-left-64'
 			}`}
 		>
+
+			{ /* This is a better sidebar */ }
 			<div className="flex h-screen overflow-y-auto flex-col bg-white  w-64 px-4 py-8 border-r min-h-screen relative">
 				<button
 					onClick={closeSidebar}
