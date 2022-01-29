@@ -38,7 +38,7 @@ function about() {
           <div className="mt-4">
             <div  className="relative bg-white w-auto p-4 border border-indigo-500 rounded-lg">
               <div className="text-gray-800 text-sm"> 
-                <p className="mb-6">Sppech caption bubbles can be made ...</p>              
+                <p className="mb-6">Speech caption bubbles can be made ...</p>              
               </div>
               <div className="absolute -mb-4 left-[39px] bottom-0 transform -translate-x-1/2 -translate-y-1/2 rotate-45 w-4 h-4 bg-white border-r border-b border-indigo-50">
               </div>

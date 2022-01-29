@@ -68,8 +68,8 @@ const Tabs = ({ bgcolor, textcolor }) => {
               </a>
             </li>
           </ul>
-          <div className="relaive flex flex-col min-w-0 break-words bg-gray-100 text-black mx-auto mb-6 shadow-lg rounded">
-            <div className="px-4 py-5 flex-auto">
+          <div className="relative flex flex-wrap pt-3 pb-4 flex-row ml-1 mr-1 break-words bg-gray-100 text-black mx-auto mb-6 shadow-lg rounded">
+            <div className="px-2 py-3 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
                   <p>
