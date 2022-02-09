@@ -133,7 +133,7 @@ function Skills() {
         <div className="flex flex-col flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">
           <div className="flex-1">
             <h2 className="text-gray-900 text-2xl font-bold leading-snug">
-              Tailwind v1.1.0
+              Tailwind v3.1.1
             </h2>
             <p className="mt-2 text-lg">
               <SkillsMainText5 />
@@ -147,7 +147,7 @@ function Skills() {
         <div className="flex flex-col flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">
           <div className="flex-1">
             <h2 className="text-gray-900 text-2xl font-bold leading-snug">
-              Tailwind v1.1.0
+              Tailwind v3.1.1
             </h2>
             <p className="mt-2 text-lg">
               <SkillsMainText6 />
@@ -161,7 +161,7 @@ function Skills() {
         <div className="flex flex-col flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">
           <div className="flex-1">
             <h2 className="text-gray-900 text-2xl font-bold leading-snug">
-              Tailwind v1.1.0
+              Tailwind v3.1.1
             </h2>
             <p className="mt-2 text-lg">
               <SkillsMainText5 />
