@@ -36,6 +36,9 @@ function about() {
           <h2 className="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-fuchsia-600 mb-3">Introducing...</h2>
           <p className="text-3xl lg:text-4xl leading-none font-extrabold text-transparent bg-clip-text bg-gradient-to-tl from-slate-300 to-green-500 tracking-tight mb-8">Tailwind and React</p>
           <div className="text-red-500 -mt-4"><FaRegThumbsUp /></div>
+          <div class="relative ml-10 w-12 h-12 animate-spin rounded-full bg-gradient-to-r from-purple-400 via-blue-500 to-red-400 ">
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-gray-600 rounded-full border-1 border-white"></div>
+          </div>
           {/* <div className="mt-3"><Spinner1Svg /></div> */}
           <div className="mt-4">
             <div  className="relative bg-white w-auto p-4 border border-indigo-500 rounded-lg">
