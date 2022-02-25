@@ -16,7 +16,7 @@ function about() {
             </div>
           </h1>
           <p className="mt-12 mb-8 leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dia.
           </p>
           <div className="flex justify-center">
             <a
