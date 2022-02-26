@@ -179,7 +179,7 @@ function Skills() {
 }
 
 const SkillsMainText = () => (
-  "Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati voluptatem similique!"
+  "Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati voluptatem distinctio similique!"
 );
 
 const SkillsMainText2 = () => (

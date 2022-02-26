@@ -43,7 +43,7 @@ const FeatureHeading = () => (
   );
 
 const FeatureMainText = () => (
-    "Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati voluptatem similique!"
+    "Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati voluptatem distinctio similique!"
   );
 
 export default Feature;

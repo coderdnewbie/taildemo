@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaRegThumbsUp } from 'react-icons/fa';
-// import Spinner1Svg from "./svg/Spinner1Svg";
+import Spinner1Svg from "./svg/Spinner1Svg";
 
 function about() {
   return (
@@ -39,7 +39,7 @@ function about() {
           <div class="relative ml-10 w-12 h-12 animate-spin rounded-full bg-gradient-to-r from-purple-400 via-blue-500 to-red-400 ">
               <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-gray-600 rounded-full border-1 border-white"></div>
           </div>
-          {/* <div className="mt-3"><Spinner1Svg /></div> */}
+          <div className="mt-3"><Spinner1Svg /></div>
           <div className="mt-4">
             <div  className="relative bg-white w-auto p-4 border border-indigo-500 rounded-lg">
               <div className="text-gray-800 text-sm"> 
